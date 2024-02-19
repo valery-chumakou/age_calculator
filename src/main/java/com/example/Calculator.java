@@ -15,14 +15,16 @@ import java.io.IOException;
 public class Calculator extends Application {
 
     private static Scene scene;
+    private static Stage primaryStage;
   
 
     @Override
     public void start(Stage stage) throws IOException {
+        primaryStage = stage;
         scene = new Scene(loadFXML("mainscene"), 640, 480);
-        stage.setScene(scene);
-        stage.setResizable(false);
-        stage.show();
+        primaryStage.setScene(scene);
+        primaryStage.setResizable(false);
+        primaryStage.show();
     }
 
     static void setRoot(String fxml) throws IOException {
