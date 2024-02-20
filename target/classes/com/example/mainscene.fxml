@@ -30,7 +30,7 @@
          </font>
       </Label>
       <DatePicker fx:id="birthdate" layoutX="274.0" layoutY="245.0" />
-      <Label fx:id="label_years" alignment="TOP_LEFT" layoutX="273.0" layoutY="308.0" prefHeight="37.0" prefWidth="54.0">
+      <Label fx:id="label_years" alignment="BOTTOM_CENTER" contentDisplay="BOTTOM" layoutX="273.0" layoutY="308.0" prefHeight="37.0" prefWidth="54.0" text=" ">
          <font>
             <Font name="Comic Sans MS" size="18.0" />
          </font>
@@ -49,12 +49,12 @@
             </Lighting>
          </effect>
       </Label>
-      <Label fx:id="label_months" alignment="TOP_CENTER" layoutX="326.0" layoutY="308.0" prefHeight="37.0" prefWidth="71.0">
+      <Label fx:id="label_months" alignment="BOTTOM_CENTER" layoutX="333.0" layoutY="308.0" prefHeight="37.0" prefWidth="78.0" text=" ">
          <font>
             <Font name="Comic Sans MS" size="18.0" />
          </font>
       </Label>
-      <Label fx:id="label_days" alignment="TOP_LEFT" layoutX="404.0" layoutY="308.0" prefHeight="37.0" prefWidth="71.0">
+      <Label fx:id="label_days" alignment="BOTTOM_CENTER" layoutX="419.0" layoutY="308.0" prefHeight="37.0" prefWidth="47.0" text=" ">
          <font>
             <Font name="Comic Sans MS" size="18.0" />
          </font>
@@ -70,5 +70,20 @@
          </font>
       </Label>
       <DatePicker fx:id="current_date" layoutX="274.0" layoutY="277.0" />
+      <Label layoutX="272.0" layoutY="345.0" text="Years">
+         <font>
+            <Font name="Comic Sans MS" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="336.0" layoutY="345.0" prefHeight="29.0" prefWidth="78.0" text="Months">
+         <font>
+            <Font name="Comic Sans MS" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="416.0" layoutY="345.0" text="Days">
+         <font>
+            <Font name="Comic Sans MS" size="21.0" />
+         </font>
+      </Label>
    </children>
 </Pane>
